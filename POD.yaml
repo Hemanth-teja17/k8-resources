@@ -3,9 +3,9 @@ kind: Pod
 metadata:
   name: Namespace
   labels:
-    - app: expense
-    - module: backend
-    - environment: dev
+     app: expense
+     module: backend
+     environment: dev
 
 spec:
   - name: nginx
