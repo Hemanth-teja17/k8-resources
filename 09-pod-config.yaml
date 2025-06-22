@@ -10,12 +10,12 @@ spec:
     image: almalinux
     env:
       - name: course
-        ValueFrom:
+        valueFrom:
           ConfigMapKeyRef:
             name: nginx-config
             key: course
       - name: duration
-        ValueFrom:
+        valueFrom:
           ConfigMapKeyRef:
             name: nginx-config
             key: duration
