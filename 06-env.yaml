@@ -12,5 +12,5 @@ spec:
     - name: trianer
       value: "sive kumar"
     - name: duration
-      vlaue: 120hrs
+      vlaue: "120hrs"
     
