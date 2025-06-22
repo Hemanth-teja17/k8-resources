@@ -8,9 +8,9 @@ spec:
     value: nginx
     env:
       - name: course
-        value: " DAWS "
+        value: DAWS
       - name: trianer
-        value: " sive kumar "
+        value: siva kumar
       - name: duration
-        vlaue: " 120hrs "
+        value: 120hrs
     
