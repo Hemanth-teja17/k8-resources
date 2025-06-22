@@ -19,5 +19,5 @@ spec:
     #         key: duration
 
     envFrom:
-     - configMapKeyRef:
+     - configMapRef:
         name: nginx-config 
