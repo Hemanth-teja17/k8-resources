@@ -6,8 +6,8 @@ metadata:
      app: expense
      module: backend
      environment: dev
-
 spec:
+  containers:
   - name: nginx
     image: nginx
   - name: almalinux
