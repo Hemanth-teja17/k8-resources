@@ -7,10 +7,10 @@ spec:
   - name: nginx
     value: nginx
     env:
-    - name: course
-      value: " DAWS "
-    - name: trianer
-      value: " sive kumar "
-    - name: duration
-      vlaue: " 120hrs "
+      - name: course
+        value: " DAWS "
+      - name: trianer
+        value: " sive kumar "
+      - name: duration
+        vlaue: " 120hrs "
     
