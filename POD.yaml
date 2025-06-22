@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: Namespace
+  labels:
+    - app: expense
+    - module: backend
+    - environment: dev
+
+spec:
+  - name: nginx
+    image: nginx
+  - name: almalinux
+    image: almalinux
+    command: ["sleep","100"]
+    resources:
+      requests:
+        cpu: 100m 
+        memory: 68Mi
+      limits:
+        cpu: 120m
+        memory: 128Mi
