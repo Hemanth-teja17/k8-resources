@@ -8,6 +8,7 @@ spec:
     image: nginx
   - name: almalinux
     image: almalinux
+    command: ["sleep","100"]
     env:
       - name: course
         valueFrom:
