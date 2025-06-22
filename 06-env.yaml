@@ -10,7 +10,7 @@ spec:
     - name: course
       value: DAWS
     - name: trianer
-      value: sive kumar
+      value: "sive kumar"
     - name: duration
       vlaue: 120hrs
     
