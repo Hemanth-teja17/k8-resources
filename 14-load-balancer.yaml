@@ -3,12 +3,12 @@ kind: Service
 metadata:
   name: nginx-lb 
 spec:
-type: LoadBalancer
-selector:
-  project: expense
-  module: backend
-  environment: dev
-ports:
+  type: LoadBalancer
+  selector:
+    project: expense
+    module: backend
+    environment: dev
+  ports:
   - name: nginx-svc-port
     protocol: TCP
     port: 80
